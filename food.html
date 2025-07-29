@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cafeteria-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .cafeteria-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .cafeteria-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 20px;
+        }
+
+        .cafeteria-text p, .cafeteria-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .cafeteria-text ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .cafeteria-text li {
+            margin-bottom: 10px;
+        }
+
+        .cafeteria-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .cafeteria-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .cafeteria-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .cafeteria-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/cafe1.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .cafeteria-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="sub-header">
+        <h1>Our On-Campus Cafeteria</h1>
+    </section>
+
+    <section class="cafeteria-section">
+        <div class="cafeteria-text">
+            <h2>Healthy & Tasty Food</h2>
+            <p>Our on-campus cafeteria serves a variety of nutritious and delicious meals to keep students energized and focused throughout the day. We prioritize hygiene, quality, and taste to ensure a safe dining experience.</p>
+            <ul>
+                <li>Balanced meals including Pakistani, Continental, and Vegetarian options</li>
+                <li>Clean and spacious seating area</li>
+                <li>Affordable prices for students</li>
+                <li>Snacks, beverages, and full-course meals</li>
+                <li>Strict hygiene and safety standards</li>
+            </ul>
+            <a href="contact.html" class="btn">Explore Now</a>
+        </div>
+
+        <div class="cafeteria-img">
+            <img src="images/cafeteria.png">
+        </div>
+    </section>
+</body>
+</html>

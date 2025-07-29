@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graduation Ceremony</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/uni1.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .graduation-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .graduation-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .graduation-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .graduation-text p {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .graduation-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .graduation-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .graduation-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .graduation-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .graduation-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="sub-header">
+        <h1>Post-graduate Courses</h1>
+    </section>
+
+    <section class="graduation-section">
+        <div class="graduation-text">
+            <h2>Celebrate the Journey of Success</h2>
+<p>Graduation is more than a milestone—it's the beginning of a new chapter. Our annual graduation ceremony honors the hard work, achievements, and dedication of our students as they step forward into a world of opportunities.</p>
+
+<p>The event is filled with pride, inspiration, and joy, as families and faculty come together to celebrate this momentous occasion. With formal caps and gowns, motivational speeches, and award distributions, it becomes an unforgettable memory in every graduate’s life.</p>
+
+<p>Graduation is not the end — it's a transition. For students who wish to pursue higher education, we also offer <strong>Master’s programs (MA)</strong> in various disciplines. These programs help students further deepen their academic knowledge and build strong foundations for professional careers or advanced research.</p>
+
+<ul>
+  <li><strong>MA English:</strong> Literature, linguistics, and advanced communication skills.</li>
+  <li><strong>MA Education:</strong> Educational leadership, curriculum development, and pedagogy.</li>
+  <li><strong>MA Psychology:</strong> Counseling, behavioral studies, and human development.</li>
+</ul>
+
+<p>We encourage our graduates to continue their learning journey with us and explore new academic heights through our postgraduate offerings.</p>
+
+
+            <a href="contact.html" class="btn">Apply Now</a>
+        </div>
+
+        <div class="graduation-img">
+            <img src="images/uni.jpg">
+        </div>
+    </section>
+
+</body>
+</html>

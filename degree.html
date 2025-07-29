@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Degree Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .degree-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .degree-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .degree-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .degree-text p, .degree-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .degree-text ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .degree-text li {
+            margin-bottom: 10px;
+        }
+
+        .degree-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .degree-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .degree-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .degree-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .degree-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="sub-header">
+        <h1>Our Degree Program</h1>
+    </section>
+
+    <section class="degree-section">
+        <div class="degree-text">
+            <h2>Advance Your Academic Journey</h2>
+            <p>Our undergraduate degree programs are designed to prepare students for both professional success and academic excellence. With a strong emphasis on practical knowledge and industry alignment, our programs ensure students graduate with the skills employers value.</p>
+
+            <ul>
+                <li><strong>BS Computer Science:</strong> Focus on programming, data structures, AI, and software development.</li>
+                <li><strong>BBA (Bachelor of Business Administration):</strong> Leadership, marketing, finance, and entrepreneurship.</li>
+                <li><strong>BS English:</strong> Linguistics, literature, and communication skills.</li>
+                <li><strong>BS Psychology:</strong> Human behavior, therapy techniques, and mental health awareness.</li>
+            </ul>
+
+            <p>Each program is taught by experienced faculty and supported by modern facilities, hands-on projects, and internship opportunities to ensure you’re ready for real-world challenges.</p>
+
+            <a href="contact.html" class="btn">Apply Now</a>
+        </div>
+
+        <div class="degree-img">
+            <img src="images/degree.jpg" alt=>
+        </div>
+    </section>
+
+</body>
+</html>

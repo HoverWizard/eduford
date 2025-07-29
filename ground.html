@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play Ground</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ground-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #ffffff;
+        }
+
+        .ground-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .ground-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .ground-text p, .ground-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .ground-text ul {
+            margin-top: 15px;
+            padding-left: 30px;
+        }
+
+        .ground-text li {
+            margin-bottom: 10px;
+        }
+
+        .ground-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .ground-text .btn:hover {
+            background-color: red;
+            color: #ffffff;
+        }
+
+        .ground-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .ground-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/play.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+            
+        }
+
+        @media (max-width: 768px) {
+            .ground-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="sub-header">
+        <h1>Our Vast Playground</h1>
+    </section>
+
+    <section class="ground-section">
+        <div class="ground-text">
+            <h2>Play, Compete, and Grow</h2>
+            <p>Our campus features one of the largest playgrounds in the region, encouraging students to maintain physical fitness, develop leadership skills, and foster teamwork through sports and activities.</p>
+
+            <ul>
+                <li>Cricket, football, basketball, and volleyball courts</li>
+                <li>Well-maintained athletic track</li>
+                <li>Annual sports events and competitions</li>
+                <li>Sports coaching and fitness programs</li>
+                <li>Outdoor seating and relaxation areas</li>
+            </ul>
+
+            <a href="contact.html" class="btn">Explore Now</a>
+        </div>
+
+        <div class="ground-img">
+            <img src="images/basketball.png">
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intermediate Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/inter1.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .intermediate-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .intermediate-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .intermediate-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .intermediate-text p, .intermediate-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .intermediate-text ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .intermediate-text li {
+            margin-bottom: 10px;
+        }
+
+        .intermediate-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .intermediate-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .intermediate-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .intermediate-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .intermediate-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="sub-header">
+        <h1>Our Intermediate Program</h1>
+    </section>
+
+    <section class="intermediate-section">
+        <div class="intermediate-text">
+            <h2>Build a Strong Foundation</h2>
+            <p>Our Intermediate programs are designed for students who have completed their matriculation and want to pursue further studies in Science, Commerce, or Arts. These courses are structured to help students explore academic interests while preparing them for university-level education.</p>
+
+            <ul>
+                <li><strong>Pre-Engineering:</strong> Focus on Physics, Chemistry, and Mathematics.</li>
+                <li><strong>Pre-Medical:</strong> Focus on Biology, Chemistry, and Physics.</li>
+                <li><strong>Commerce:</strong> Basics of Business, Accounting, and Economics.</li>
+                <li><strong>Humanities/Arts:</strong> Social sciences, literature, and creative subjects.</li>
+            </ul>
+
+            <p>These programs foster critical thinking, research habits, and academic discipline. They act as the launching pad for higher studies and career paths in engineering, medicine, business, arts, and more.</p>
+
+            <a href="contact.html" class="btn">Apply Now</a>
+        </div>
+
+        <div class="intermediate-img">
+            <img src="images/inter.jpg" alt=>
+        </div>
+    </section>
+
+</body>
+</html>

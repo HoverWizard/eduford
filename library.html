@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .library-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .library-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .library-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .library-text p, .library-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .library-text ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .library-text li {
+            margin-bottom: 10px;
+        }
+
+        .library-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .library-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .library-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .library-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/lb.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .library-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="sub-header">
+        <h1>Our library</h1>
+    </section>
+
+    <section class="library-section">
+        <div class="library-text">
+            <h2>A Hub of Knowledge</h2>
+            <p>Our world-class library is the heart of academic learning at our university. It houses an extensive collection of books, research journals, digital databases, and multimedia materials to support your learning and research needs.</p>
+
+            <ul>
+                <li>Over 50,000+ books and digital resources</li>
+                <li>Subject-specific journals and reference material</li>
+                <li>Quiet reading zones and group study areas</li>
+                <li>Computer lab with internet access</li>
+                <li>Research assistance and librarian support</li>
+            </ul>
+
+            <a href="contact.html" class="btn">Explore Now</a>
+        </div>
+
+        <div class="library-img">
+            <img src="images/library.png">
+        </div>
+    </section>
+</body>
+</html>
+

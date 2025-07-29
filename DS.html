@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/ds1.jpg);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .sub-header h1 { font-size: 40px; font-weight: 700; }
+        .campus-section { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 60px 80px; gap: 40px; background-color: #fff; }
+        .campus-text { flex: 1; min-width: 300px; }
+        .campus-text h2 { font-size: 32px; font-weight: 700; color: #111; margin-bottom: 20px; }
+        .campus-text p, .campus-text ul { font-size: 16px; color: #444; line-height: 1.8; }
+        .campus-text ul { margin-top: 15px; padding-left: 20px; }
+        .campus-text li { margin-bottom: 10px; }
+        .campus-text .btn { margin-top: 20px; padding: 12px 24px; border: 2px solid red; color: red; background-color: transparent; text-transform: uppercase; font-weight: 600; text-decoration: none; display: inline-block; transition: 0.3s ease; }
+        .campus-text .btn:hover { background-color: red; color: #fff; }
+        .campus-img { flex: 1; min-width: 300px; }
+        .campus-img img { width: 100%; border-radius: 10px; }
+        @media (max-width: 768px) {
+            .campus-section { flex-direction: column; padding: 40px 20px; }
+        }
+    </style>
+</head>
+<body>
+<section class="sub-header">
+    <h1>Data Science</h1>
+</section>
+
+<section class="campus-section">
+    <div class="campus-text">
+        <h2>Uncover Hidden Insights from Data</h2>
+        <p>Our 28-credit program teaches you how to collect, clean, analyze, and model data using advanced tools and techniques.</p>
+        <ul>
+            <li>Python, R, and Jupyter Notebooks</li>
+            <li>Machine learning & big data</li>
+            <li>Statistics and data visualization</li>
+            <li>Industry projects with real datasets</li>
+        </ul>
+        <a href="contact.html" class="btn">Join Now</a>
+    </div>
+    <div class="campus-img">
+        <img src="images/ds2.jpg">
+    </div>
+</section>
+</body>
+</html>

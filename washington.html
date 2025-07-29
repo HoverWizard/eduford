@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Washington Campus</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sub-header {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/washington1.png);
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .sub-header h1 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .campus-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 80px;
+            gap: 40px;
+            background-color: #fff;
+        }
+
+        .campus-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .campus-text h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        .campus-text p, .campus-text ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .campus-text ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .campus-text li {
+            margin-bottom: 10px;
+        }
+
+        .campus-text .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: 2px solid red;
+            color: red;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease;
+        }
+
+        .campus-text .btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .campus-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .campus-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .campus-section {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="sub-header">
+        <h1>Washington Campus</h1>
+    </section>
+
+    <section class="campus-section">
+        <div class="campus-text">
+            <h2>Learn at the Political & Cultural Capital</h2>
+            <p>Our Washington campus places students in proximity to global decision-makers, government institutions, and international organizations for unparalleled learning experiences.</p>
+            <ul>
+                <li>Programs in politics, law, and international relations</li>
+                <li>Access to think tanks and research institutes</li>
+                <li>Historic museums and cultural experiences</li>
+                <li>Internships with federal and nonprofit organizations</li>
+            </ul>
+            <p>Washington Campus opens doors to careers in governance, diplomacy, and global affairs.</p>
+            <a href="contact.html" class="btn">Explore Now</a>
+        </div>
+
+        <div class="campus-img">
+            <img src="images/dc.jpg">
+        </div>
+    </section>
+
+</body>
+</html>
